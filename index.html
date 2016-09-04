@@ -77,14 +77,21 @@
               Over-fetching
 
               <ul class="fragment fade-in" data-fragment-index="1">
-                <li>/products?<span class="qname">field</span>=<span class="qvalue">name</span>&<span class="qname">field</span>=<span class="qvalue">description</span>&<span class="qname">field</span>=<span class="qvalue">variants[*].price</span></li>
+                <li>
+                  <strong class="super-strong">/</strong>products<strong class="super-strong">?</strong><span class="qname">field</span>=<span class="qvalue">name</span><strong class="super-strong">&</strong><br>
+                  <span style="visibility: hidden">/products?</span><span class="qname">field</span>=<span class="qvalue">description</span><strong class="super-strong">&</strong><br>
+                  <span style="visibility: hidden">/products?</span><span class="qname">field</span>=<span class="qvalue">variants[*].price</span>
+                </li>
               </ul>
             </li>
             <li class="fragment fade-in" data-fragment-index="2">
               Under-fetching
 
               <ul class="fragment fade-in" data-fragment-index="3">
-                <li>/products?<span class="qname">expand</span>=<span class="qvalue">productType</span>&<span class="qname">expand</span>=<span class="qvalue">variants[*].price.taxRate</span></li>
+                <li>
+                  <strong class="super-strong">/</strong>products<strong class="super-strong">?</strong><span class="qname">expand</span>=<span class="qvalue">productType</span><strong class="super-strong">&</strong><br>
+                  <span style="visibility: hidden"><strong class="super-strong">/</strong>products<strong class="super-strong">?</strong></strong></span><span class="qname">expand</span>=<span class="qvalue">variants[*].price.taxRate</span>
+                </li>
               </ul>
             </li>
             <li class="fragment fade-in" data-fragment-index="4">
