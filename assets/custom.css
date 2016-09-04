@@ -1,5 +1,7 @@
 .title-font {
-  font-family: "ff-enzo-web" !important;
+  font-family: "proxima-nova" !important;
+  font-weight: 300;
+
 }
 
 .normal-font {
@@ -46,8 +48,8 @@ code {
 }
 
 .reveal h1 {
-  font-family: "ff-enzo-web" !important;
-  font-weight: 500;
+  font-family: "proxima-nova" !important;
+  font-weight: 300;
   text-transform: none !important;
   font-size: 2.6em;
   color: #dc7676;
@@ -55,8 +57,8 @@ code {
 
 .reveal h2 {
   color: #dc7676;
-  font-family: "ff-enzo-web" !important;
-  font-weight: 500;
+  font-family: "proxima-nova" !important;
+  font-weight: 300;
   text-transform: none !important;
   font-size: 2.2em !important;
   color: #dc7676;
@@ -67,8 +69,8 @@ h2.smaller {
 }
 
 .reveal h3 {
-  font-family: "ff-enzo-web" !important;
-  font-weight: 500;
+  font-family: "proxima-nova" !important;
+  font-weight: 300;
   text-transform: none !important;
   font-size: 1.2em !important;
 }
@@ -150,4 +152,8 @@ iframe.graphiql {
   height: 100px;
   padding-right: 20px;
   padding-bottom: 20px;
+}
+
+.reveal strong {
+  font-weight: 500;
 }
